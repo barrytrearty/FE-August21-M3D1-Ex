@@ -95,9 +95,9 @@ Create a function to create a new string of specified copies (positive number) o
 newExercise(6);
 
 const arrayOfCopies = (string, num) => {
-  let newArr = [];
+  let newArr = "";
   for (i = 0; i < num; i++) {
-    newArr.push(string);
+    newArr += string;
   }
   return newArr;
 };
